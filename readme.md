@@ -1,4 +1,5 @@
-# Metaphone算法
+Metaphone算法
+---
 
         Metaphone语音匹配算法是Soundex的重大改进算法之一，首先发表在1990年的《Computer Language》杂志上。Metaphone语音匹配算法依据英语的发音规则进行编码处理，而这正是Soundex没有解决的问题。Metaphone在概念上和经典的Soundex相似,但是在语音编码的处理方法上要比Soundex丰富得多。例如，Metaphone算法包含一个明确的规则：在字母b在单词末尾出现在字母m后面时，就删除它。这个规则保证了lam和lamb会有相同的编码（LM），这样就使拼写检查应用程序能够为lam提供正确的替换。
 
@@ -8,6 +9,7 @@
 
 
 
-# annotate
+annotate
+---
 
         展示了Jazzy中DoubleMeta.java的代码注释和个人理解，能力有限，难免错误和疏漏，欢迎交流指正。
